@@ -6,11 +6,6 @@ import remark from "remark";
 
 const recipesDir = path.join(process.cwd(), "src/recipes");
 
-// TODO: Filter by folder.
-// Folder name is the ID of the recipe
-// Folder contains index.md which is the main markdown file
-// Folder also may contain images or other resources person needs for recipe
-
 const getRecipesData = () => {
   const fileNames = fs.readdirSync(recipesDir);
 
