@@ -13,7 +13,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-/ TODO: Type data: id, date, title, eta into a recipe type
+// TODO: Type data: id, date, title, eta into a recipe type
 const Index = ({ allRecipesData }) => {
   return (
     <Container>
