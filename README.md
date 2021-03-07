@@ -31,3 +31,15 @@ E.g in our example it'll be `public/images/example/example.png` and from our mar
 That's it! For development, ignore `build` and `start` and just run `npm run dev`.
 
 There's an [official website](https://balasquide.xyz) that hosts this recipe book implemented with continous integration. Every pull request that ends up in master will automatically be built and deployed onto the website. 
+
+# Submitting a recipe to this repo
+
+## Approval Constraints
+
+- Page must be less than 1MB (total size, not transferred).
+- Follows proper markdown styles.
+- No backstories or anything off-topic, just says how to do the recipe and any tips or recommendation.
+
+Make a pull request to put your .md recipe and any images in the `public/images/` folder and it will be reviewed, and if approved, added to the repo.
+
+Of course, you can host this yourself if you do not like my standards for the recipes.
