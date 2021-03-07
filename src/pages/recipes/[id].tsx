@@ -1,4 +1,4 @@
-import { Container } from "@chakra-ui/layout";
+import { Container, Text } from "@chakra-ui/layout";
 import { getAllRecipesIds, getRecipeData } from "../../lib/getRecipes";
 import { GetStaticProps, GetStaticPaths } from "next";
 
@@ -22,11 +22,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 export default function Recipe({ recipeData }) {
   return (
     <Container>
-      {recipeData.title}
+      <Text fontSize="2.5em">{recipeData.title}</Text>
+      <Text>
+        ETA for Preparing and Cooking: <Text as="u">{recipeData.eta}</Text>
+      </Text>
       <br />
-      {recipeData.id}
-      <br />
-      {recipeData.date}
       <div dangerouslySetInnerHTML={{ __html: recipeData.contentHtml }} />
     </Container>
   );
