@@ -4,7 +4,7 @@ date: '2021-03-06'
 eta: '30mins'
 ---
 
-# **Ingredients**
+## **Ingredients**
 - Chicken 1/2 lb
 - Melted Cheese 20g
 
@@ -19,7 +19,6 @@ This **_recipe_** reminds me of my father...
 <br />
 
 ![chicken](/images/chicken%20parmesan/chicken.jpg "Chicken Parmesan")
-
 
 <br />
 

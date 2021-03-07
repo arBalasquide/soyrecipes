@@ -1,4 +1,3 @@
-import { Center, Container, Text, Link as ChakraLink } from "@chakra-ui/layout";
 import Link from "next/link";
 import { GetStaticProps } from "next";
 import { getRecipesData } from "../lib/getRecipes";
@@ -17,25 +16,17 @@ export const getStaticProps: GetStaticProps = async () => {
 // TODO: Type data: id, date, title, eta into a recipe type
 const Index = ({ allRecipesData }) => {
   return (
-    <>
-      <Center>
-        <Text fontSize="2em">Recipes</Text>
-      </Center>
-      <Container>
-        <br />
-        <ul>
-          {allRecipesData.map(({ id, date, title, _eta }) => (
-            <li key={id}>
-              <Link href={recipesDir + id}>
-                <a>
-                  <Text as="u">{title}</Text>
-                </a>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </Container>
-    </>
+    <div>
+      <h1>Recipes</h1>
+      <br />
+      {allRecipesData.map(({ id, date, title, _eta }) => (
+        <Link href={recipesDir + id}>
+          <a>
+            <h2>{title}</h2>
+          </a>
+        </Link>
+      ))}
+    </div>
   );
 };
 

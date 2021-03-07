@@ -1,1 +1,33 @@
 # soyrecipes
+
+# How to create a recipe
+
+All recipes are stored inside `src/recipes/` as a markdown file where the name of the file is the _unique_ ID of the recipe.
+On build time for the server, it generates routes based on the ID of the recipe in order to server static files.
+
+Lets say we have an example recipe called `example.md`:
+
+```
+---
+title: 'Example Recipe'
+date: '2021-03-07'
+eta: '40 mins'
+---
+
+An example recipe in markdown
+```
+
+The server on build time will generate a route as `recipes/example` where it will serve the static HTML for that markdown file.
+Moreover, if you want to use images in your markdown file you would have to place them in the `public/images/` folder in the root of the project in a folder with the ID of your recipe.
+
+E.g in our example it'll be `public/images/example/example.png` and from our markdown file we can access it as `![example](/images/example/example.png)`
+
+# How to run the server
+
+1. npm install
+2. npm run build
+3. npm run start
+
+That's it! For development, ignore `build` and `start` and just run `npm run dev`.
+
+There's an [official website](https://balasquide.xyz) that hosts this recipe book implemented with continous integration. Every pull request that ends up in master will automatically be built and deployed onto the website. 
