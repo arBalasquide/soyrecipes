@@ -13,13 +13,12 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-// TODO: Type data: id, date, title, eta into a recipe type
 const Index = ({ allRecipesData }) => {
   return (
     <div>
       <h1>Recipes</h1>
       <br />
-      {allRecipesData.map(({ id, date, title, _eta }) => (
+      {allRecipesData.map(({ id, title }) => (
         <Link href={recipesDir + id}>
           <a>
             <h2>{title}</h2>
