@@ -24,11 +24,11 @@ E.g in our example it'll be `public/images/example/example.png` and from our mar
 
 # How to run the server
 
-1. npm install
-2. npm run build
-3. npm run start
+1. yarn install
+2. yarn build
+3. yarn start
 
-That's it! For development, ignore `build` and `start` and just run `npm run dev`.
+That's it! For development, ignore the `build`/`start` commands and just run `yarn dev`. You can install yarn globally with `npm i yarn --global`. Otherwise, you can replace yarn by replacing yarn with `npm run`.
 
 There's an [official website](https://soy.recipes) that hosts this recipe book implemented with continous integration. Every pull request that ends up in master will automatically be built and deployed onto the website. 
 
