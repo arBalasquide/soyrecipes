@@ -46,3 +46,21 @@ button.home:hover {
   cursor:pointer;
   box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
 }
+
+div.nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 15px 15px 15px 15px;
+}
+
+span.nav {
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+span.listing {
+    font-weight: bold;
+    font-size: 25px;
+    color: #d15454;
+}

@@ -16,6 +16,16 @@ export const getStaticProps: GetStaticProps = async () => {
 const Index = ({ allRecipesData }) => {
   return (
     <div>
+      <div className="nav">
+        <span className="nav">
+          <span className="listing">1</span>{" "}
+          <Link href="/submit">Submitting</Link>
+        </span>
+        <span className="nav">
+          <span className="listing">2</span>{" "}
+          <Link href="https://github.com/arBalasquide/soyrecipes">Github</Link>
+        </span>
+      </div>
       <h1>Recipes</h1>
       <br />
       {allRecipesData.map(({ id, title }) => (
