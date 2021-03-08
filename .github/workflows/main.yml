@@ -27,5 +27,9 @@ jobs:
           host: ${{secrets.HOST}}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
-          script: whoami
+          script: |
+            cd ~/soyrecipes/
+            git pull
+            yarn build
+            pm2 restart nextjs
           
