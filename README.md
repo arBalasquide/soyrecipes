@@ -28,7 +28,7 @@ E.g in our example it'll be `public/images/example/example.png` and from our mar
 2. yarn build
 3. yarn start
 
-That's it! For development, ignore the `build`/`start` commands and just run `yarn dev`. You can install yarn globally with `npm i yarn --global`. Otherwise, you can replace yarn by replacing yarn with `npm run`.
+That's it! For development, ignore the `build`/`start` commands and just run `yarn dev`. You can install yarn globally with `npm i yarn --global`. Otherwise, you can replace yarn with `npm run`.
 
 There's an [official website](https://soy.recipes) that hosts this recipe book implemented with continous integration. Every pull request that ends up in master will automatically be built and deployed onto the website. 
 
