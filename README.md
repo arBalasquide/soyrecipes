@@ -30,7 +30,7 @@ E.g in our example it'll be `public/images/example/example.png` and from our mar
 
 That's it! For development, ignore `build` and `start` and just run `npm run dev`.
 
-There's an [official website](https://balasquide.xyz) that hosts this recipe book implemented with continous integration. Every pull request that ends up in master will automatically be built and deployed onto the website. 
+There's an [official website](https://soy.recipes) that hosts this recipe book implemented with continous integration. Every pull request that ends up in master will automatically be built and deployed onto the website. 
 
 # Submitting a recipe to this repo
 
