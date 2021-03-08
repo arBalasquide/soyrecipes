@@ -23,7 +23,9 @@ export default function Recipe({ recipeData }) {
   return (
     <div>
       <Link href="/">
-        <button className="home">Home</button>
+        <a>
+          <button className="home">Home</button>
+        </a>
       </Link>
       <h1>{recipeData.title}</h1>
       <h4>ETA: {recipeData.eta} ⏰</h4>

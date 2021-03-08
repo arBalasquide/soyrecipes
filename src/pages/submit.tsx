@@ -4,7 +4,9 @@ const SubmitRecipe = () => {
   return (
     <div>
       <Link href="/">
-        <button className="home">Home</button>
+        <a>
+          <button className="home">Home</button>
+        </a>
       </Link>
       <p>
         Read{" "}
