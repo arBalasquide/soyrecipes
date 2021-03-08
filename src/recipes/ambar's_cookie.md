@@ -9,7 +9,7 @@ eta: '1 hour'
 - 1/2 cup of White Sugar
 - 1/2 cup of chocolate chips
 - 2 cups of unsalted softened butter
-- 1 cup of flower, sifted
+- 1 cup of flour, sifted
 - 1 large egg
 - 1 tsp vanilla extract
 - 1/2 tsp baking powder
