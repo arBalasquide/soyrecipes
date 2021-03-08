@@ -2,6 +2,7 @@
 title: "Ambar's Chocolate Chip Cookies"
 date: '2021-03-07'
 eta: '1 hour'
+author: 'Ambar Pumarada'
 ---
 
 ## **Ingredients**

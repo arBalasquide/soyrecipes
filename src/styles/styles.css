@@ -72,9 +72,12 @@ span.listing {
 div.recipe {
     background-color: #f5f5f5;
     color: black;
-    padding: 30px 30px 30px 30px;
+    padding: 0px 30px 30px 30px;
     border: 2px solid black;
     border-radius: 1px;
     box-shadow: 5px 10px 18px black;
+}
 
+p.author {
+    text-align: right;
 }

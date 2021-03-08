@@ -29,10 +29,11 @@ export default function Recipe({ recipeData }) {
       </Link>
       <h1>{recipeData.title}</h1>
       <h4>ETA: {recipeData.eta} ⏰</h4>
-      <div
-        className="recipe"
-        dangerouslySetInnerHTML={{ __html: recipeData.contentHtml }}
-      />
+      <div className="recipe">
+        <p className="author"> {recipeData.author} </p>
+
+        <div dangerouslySetInnerHTML={{ __html: recipeData.contentHtml }} />
+      </div>
     </div>
   );
 }
