@@ -26,8 +26,11 @@ export default function Recipe({ recipeData }) {
         <button className="home">Home</button>
       </Link>
       <h1>{recipeData.title}</h1>
-      <h4>ETA for Preparing and Cooking: {recipeData.eta}</h4>
-      <div dangerouslySetInnerHTML={{ __html: recipeData.contentHtml }} />
+      <h4>ETA: {recipeData.eta} ⏰</h4>
+      <div
+        className="recipe"
+        dangerouslySetInnerHTML={{ __html: recipeData.contentHtml }}
+      />
     </div>
   );
 }

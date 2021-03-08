@@ -8,7 +8,7 @@ body {
         'Arial', sans-serif;
     padding: 20px 20px 60px;
     color: #f0f0f0;
-    max-width: 600px;
+    max-width: 680px;
     margin: 0 auto;
 }
 
@@ -26,6 +26,10 @@ a {
 
 a:hover {
     color: #4287f5;
+}
+
+ul {
+  list-style-type: circle;
 }
 
 button.home {
@@ -63,4 +67,14 @@ span.listing {
     font-weight: bold;
     font-size: 25px;
     color: #d15454;
+}
+
+div.recipe {
+    background-color: #f5f5f5;
+    color: black;
+    padding: 30px 30px 30px 30px;
+    border: 2px solid black;
+    border-radius: 1px;
+    box-shadow: 5px 10px 18px black;
+
 }
