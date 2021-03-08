@@ -12,6 +12,7 @@ Lets say we have an example recipe called `example.md`:
 title: 'Example Recipe'
 date: '2021-03-07'
 eta: '40 mins'
+author 'Adrian'
 ---
 
 An example recipe in markdown
