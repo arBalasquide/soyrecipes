@@ -15,7 +15,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
 const Index = ({ allRecipesData }) => {
   return (
-    <div>
+    <div className="container">
       <div className="nav">
         <span className="nav">
           <span className="listing">1</span>{" "}
@@ -26,7 +26,7 @@ const Index = ({ allRecipesData }) => {
           <Link href="https://github.com/arBalasquide/soyrecipes">Github</Link>
         </span>
       </div>
-      <h1>Recipes</h1>
+      <h1>🍴 Open Source Recipes</h1>
       <br />
       {allRecipesData.map(({ id, title }) => (
         <Link href={recipesDir + id}>

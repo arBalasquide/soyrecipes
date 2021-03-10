@@ -81,3 +81,13 @@ div.recipe {
 p.author {
     text-align: right;
 }
+
+div.container {
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+div.container a {
+    text-align: left;
+}
