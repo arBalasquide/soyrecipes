@@ -14,4 +14,4 @@ author: "Adriana González"
     - Can be substituded with 2 flax eggs
     1. 1 tbs of Milled flax seed
     2. 3 tbs of lukewarm water
-        - Each flax egg cam replace 1 normal egg
+        - Each flax egg can replace 1 normal egg
