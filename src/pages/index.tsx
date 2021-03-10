@@ -25,6 +25,9 @@ const Index = ({ allRecipesData }) => {
           <span className="listing">2</span>{" "}
           <Link href="https://github.com/arBalasquide/soyrecipes">Github</Link>
         </span>
+        <span className="nav">
+          <span className="listing">3</span> <Link href="/donate">Donate</Link>
+        </span>
       </div>
       <h1>🍴 Open Source Recipes</h1>
       <br />
